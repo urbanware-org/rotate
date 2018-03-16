@@ -1,0 +1,83 @@
+
+USAGE (rotate-cracker.py)
+
+    Contents:
+
+        1.  Definition
+        2.  General stuff
+          2.1  How to run Python scripts
+          2.2  Overview of all command-line arguments
+        3.  Crack a ROT encrypted file
+
+    1. Definition
+
+        The ROTate Cracker script helps to determine which ROT variant and
+        rotation value was used to encrypt a file or string by trying all
+        supported ROT variants with all rotation values available (brute
+        force).
+
+    2. General stuff
+
+        2.1 How to run Python scripts
+
+            All usage examples below show how to execute the Python scripts on
+            the shell of a Unix-like system. If you do not know, how to run
+            those scripts on your operating system, you may have a look at
+            this page:
+
+                http://www.urbanware.org/howto_python.html
+
+        2.2 Overview of all command-line arguments
+
+            Usually, each script requires command-line arguments to operate.
+            So, to get an overview of all arguments available, simply run the
+            script with the "--help" argument. For example:
+
+                $ ./rotate-cracker.py --help
+
+    3. Crack a ROT encrypted file
+
+        For example, you have the ROT encrypted file "secret.txt" containing
+        the line
+
+            Uryyb, Jbeyq!
+
+        and want to decrypt it. So, to find out which ROT method and rotation
+        value was used to encrypt the file, a string from the file (e. g. a
+        word) is required.
+
+        This example uses the string "Uryyb" and writes the decrypted values
+        into the file "/tmp/output.txt":
+
+            $ ./rotate-cracker.py -s "Uryyb" -o /tmp/output.txt
+
+        The output file shows that when using the ROT13 method, the string
+        "Uryyb" decrypted with value 13 returns the word "Hello":
+
+                (...)
+                  [ROT13]
+                    - Value   0:  Uryyb
+                    - Value   1:  Tqxxa
+                    - Value   2:  Spwwz
+                    - Value   3:  Rovvy
+                    - Value   4:  Qnuux
+                    - Value   5:  Pmttw
+                    - Value   6:  Olssv
+                    - Value   7:  Nkrru
+                    - Value   8:  Mjqqt
+                    - Value   9:  Lipps
+                    - Value  10:  Khoor
+                    - Value  11:  Jgnnq
+                    - Value  12:  Ifmmp
+                    - Value  13:  Hello
+                (...)
+
+        So, the file or at least that string seems to be encrypted with that
+        method and value. Unfortunately, there is no analysis feature, which
+        means you will have to look at the returned value list to manually
+        check which entry makes most sense.
+
+        If there are non-printable characters inside the string, they will be
+        replaced by whitespaces. If the string only contains of whitespaces,
+        a notice will be written to the output file.
+        

@@ -1,0 +1,74 @@
+
+USAGE (rotate-rot13.py)
+
+    Contents:
+
+        1.  Definition
+        2.  General stuff
+          2.1  How to run Python scripts
+          2.2  Overview of all command-line arguments
+        3.  Encrypt a file
+        4.  Decrypt the file again
+        5.  User-defined rotation values
+
+    1. Definition
+
+        The ROTate ROT13 script encrypts and decrypts a file using the ROT13
+        method with the default rotation value or a user-defined one (using
+        the ROT13 character set).
+
+    2. General stuff
+
+        2.1 How to run Python scripts
+
+            All usage examples below show how to execute the Python scripts on
+            the shell of a Unix-like system. If you do not know, how to run
+            those scripts on your operating system, you may have a look at
+            this page:
+
+                http://www.urbanware.org/howto_python.html
+
+        2.2 Overview of all command-line arguments
+
+            Usually, each script requires command-line arguments to operate.
+            So, to get an overview of all arguments available, simply run the
+            script with the "--help" argument. For example:
+
+                $ ./rotate-rot13.py --help
+
+    3. Encrypt a file
+
+        For example, if you have the input file "hello.txt" containing the
+        line
+
+            Hello, world!
+
+        and want to encrypt it using ROT13 (with its default value) and write
+        the encrypted data into "secret.txt", the command line would look like
+        this:
+
+            $ ./rotate-rot13.py -i hello.txt -o secret.txt -a encrypt
+
+        The encrypted data inside "secret.txt" should look like this:
+
+            Uryyb, Jbeyq!
+
+    4. Decrypt the file again
+
+        To decrypt the file again and write the decrypted data into the file
+        "output.txt", type:
+
+            $ ./rotate-rot13.py -i secret.txt -o output.txt -a decrypt
+
+    5. User-defined rotation values
+
+        You can also encrypt the file using the ROT13 method, but with
+        rotation value 19 instead of the default value:
+
+            $ ./rotate-rot13.py -i hello.txt -o secret.txt -a encrypt -v 19
+
+        The user-defined rotation value used to encrypt is also required to
+        properly decrypt the file again:
+
+            $ ./rotate-rot13.py -i secret.txt -o output.txt -a decrypt -v 19
+            
