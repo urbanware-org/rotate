@@ -14,14 +14,13 @@
 __version__ = "3.0.6"
 
 import os
+import string as st
+import sys
+from datetime import datetime as dt
 from . import paval as pv
 from . import rot13
 from . import rot47
 from . import rot128
-import string as st
-import sys
-
-from datetime import datetime as dt
 
 
 def brute_force(string, file_output, method=None, int_ordinals=False,

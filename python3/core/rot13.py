@@ -13,8 +13,8 @@
 
 __version__ = "3.0.6"
 
-from . import common
 import os
+from . import common
 from . import paval as pv
 
 
