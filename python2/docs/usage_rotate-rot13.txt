@@ -71,4 +71,4 @@ USAGE (rotate-rot13.py)
         properly decrypt the file again:
 
             $ ./rotate-rot13.py -i secret.txt -o output.txt -a decrypt -v 19
-            
+

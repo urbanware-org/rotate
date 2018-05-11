@@ -53,4 +53,4 @@ USAGE (rotate-rot47.py)
         This works as described in section 5 inside the ROT13 documentation,
         but, of course, you need to run the ROTate ROT47 instead of the script
         used there.
-        
+

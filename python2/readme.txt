@@ -37,6 +37,11 @@ README (ROTate)
         component of the project, you may have a look at the text files inside
         the included 'docs' sub-directory.
 
+    Contact
+
+        Any suggestions, questions, bugs to report or feedback to give? If so,
+        you can find the contact information inside the 'contact.txt' file.
+
     Legal information
 
         The project name is completely fictitious. Any correspondences with
@@ -46,4 +51,4 @@ README (ROTate)
         All trademarks belong to their respective owners.
 
         Errors and omissions excepted.
-        
+

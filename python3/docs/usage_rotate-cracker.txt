@@ -80,4 +80,4 @@ USAGE (rotate-cracker.py)
         If there are non-printable characters inside the string, they will be
         replaced by whitespaces. If the string only contains of whitespaces,
         a notice will be written to the output file.
-        
+

@@ -54,4 +54,4 @@ CHANGELOG (ROTate)
     Version 3.0.0 (2014-02-11)
 
         * First official release of this major version.
-        
+
