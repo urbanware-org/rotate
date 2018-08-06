@@ -7,8 +7,8 @@ README (ROTate)
         Version 3.0.6 (based on Python framework 3.x)
         Copyright (C) 2018 by Ralf Kilian
 
-        Website: http://www.urbanware.org
         GitHub: https://github.com/urbanware-org/rotate
+        GitLab: https://gitlab.com/urbanware-org/rotate
 
     Definition
 

@@ -7,8 +7,8 @@
 # Copyright (C) 2018 by Ralf Kilian
 # Distributed under the MIT License (https://opensource.org/licenses/MIT)
 #
-# Website: http://www.urbanware.org
 # GitHub: https://github.com/urbanware-org/rotate
+# GitLab: https://gitlab.com/urbanware-org/rotate
 # ============================================================================
 
 __version__ = "3.0.6"
