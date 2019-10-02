@@ -1,4 +1,4 @@
-# *ROTate* <img src="rotate.png" alt="ROTate logo" height="48px" width="48px" align="right"/>
+# *ROTate* <img src="rotate.png" alt="ROTate logo" height="128px" width="128px" align="right"/>
 
 **Table of contents**
 
