@@ -63,7 +63,7 @@ In the corresponding `docs` sub-directories, there are plain text files containi
 
 Any suggestions, questions, bugs to report or feedback to give?
 
-You can contact me by sending an email to <dev@urbanware.org>.
+You can contact me by sending an email to [dev@urbanware.org](mailto:dev@urbanware.org).
 
 Further information can be found inside the `contact.txt` file.
 
