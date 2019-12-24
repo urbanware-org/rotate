@@ -6,7 +6,7 @@ REQUIREMENTS (ROTate)
         This version of ROTate was built for the Python 3.x framework. If you
         need a version that works with Python 2.x, you may look here:
 
-            http://github.com/urbanware-org/rotate
+            https://github.com/urbanware-org/rotate
 
     General
 
