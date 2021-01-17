@@ -1,7 +1,7 @@
 
 CHANGELOG (ROTate)
 
-    Next version (outstanding)
+    Next release (outstanding)
 
         * Revised some code inside the core modules (negligible changes).
 
