@@ -79,14 +79,9 @@ def brute_force(string, file_output, method=None, int_ordinals=False,
         for value in list_values_rot128:
             output += "    - %s\r\n" % value
         output += "\r\n"
+
     fh_output = open(file_output, "wb")
-
-    # Run the appropriate code for the Python framework used
-    if sys.version_info[0] == 2:
-        fh_output.write(output)
-    elif sys.version_info[0] > 2:
-        fh_output.write(output.encode(sys.getdefaultencoding()))
-
+    fh_output.write(output.encode(sys.getdefaultencoding()))
     fh_output.close()
 
 
