@@ -26,6 +26,9 @@ It also comes with a tool to find out which variant and value has been used to e
 
 Due to the fact, that data encrypted with *ROT* methods can be cracked quite easily, they are **not** suitable for encrypting sensible data.
 
+> [!NOTE]
+> This project was **officially discontinued** as of August 2025 and is **no longer maintained**.
+
 [Top](#rotate)
 
 ## Components
@@ -61,11 +64,9 @@ In the corresponding `docs` sub-directories, there are plain text files containi
 
 ## Contact
 
-Any suggestions, questions, bugs to report or feedback to give?
+As mentioned above, this project has been discontinued. For this reason, no new features will be implemented, existing features will not be enhanced and remaining bugs will not be fixed either.
 
-You can contact me by sending an email to [dev@urbanware.org](mailto:dev@urbanware.org) or by opening a *GitHub* issue (which I would prefer if you have a *GitHub* account).
-
-Further information can be found inside the `contact.txt` file.
+However, if you have questions about it, you can contact me by sending an email to <dev@urbanware.org>.
 
 [Top](#rotate)
 
